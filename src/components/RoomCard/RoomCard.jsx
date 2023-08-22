@@ -9,15 +9,15 @@ const RoomCard = ({image, title, location, rating, status, cost }) => {
           <img className="w-full h-full object-cover" src={image} alt="vine" />
         </div>
         <div className="flex justify-center flex-col mt-2 gap-1">
-          <h6 className="text-[12px] text-textGrey font-bold capitalize tracking-wider">
+          <h6 className="text-[14px] text-textGrey font-semibold capitalize tracking-wider">
             {title}
           </h6>
           <div className="flex justify-between items-center text-xs font-normal">
             <div className="flex justify-center items-center text-xs text-textGrey">
               <span>
-                <HiLocationMarker />
+                <HiLocationMarker size={17}/>
               </span>
-              <p className="capitalize track">{location}</p>
+              <p className="capitalize track font-light">{location}</p>
             </div>
             <div className="flex justify-center items-center text-xs gap-2">
               <div className="">

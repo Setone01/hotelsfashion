@@ -7,16 +7,16 @@ import { LiaUserCircleSolid } from "react-icons/lia";
 
 const Nav = () => {
   return (
-    <div className="w-screen h-[4rem] bg-deepGrey flex justify-center items-center shadow-md fixed z-50">
+    <div className="w-screen h-[5rem] bg-deepGrey flex justify-center items-center shadow-md fixed z-50">
       <div className="w-[90%] mx-auto flex justify-between items-center">
         <div className="">
           <img className="w-24" src={logo} alt="logo" />
         </div>
         <ul
-          className="flex justify-center items-center text-textBlack text-sm font-normal gap-7"
+          className="flex justify-center items-center text-textBlack font-light gap-7"
         >
           {navLink.map((data, index) => (
-            <li key={index} className="">
+            <li key={index} className="text-base font-normal">
               <Link to={data.path}>{data.title}</Link>
             </li>
           ))}

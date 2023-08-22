@@ -10,7 +10,17 @@ module.exports = {
         textGrey: 'hsla(0, 0%, 25%, 1)',
         lightGrey: 'hsla(0, 0%, 28%, 1)',
         Pink: 'hsla(334, 100%, 97%, 1)',
-      }
+      },
+
+      screens: {
+        'xs': '440px',
+        'sm': '640px',
+        'md': '765px',
+        'lg': '1024px',
+        'xl': '1280px',
+        '2xl': '1536px'
+
+      },
     },
   },
   plugins: [],
