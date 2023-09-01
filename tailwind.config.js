@@ -21,6 +21,10 @@ module.exports = {
         '2xl': '1536px'
 
       },
+
+      backgroundImage: {
+        heroBg: "url('./components/Assets/images/bgImage.svg')"
+      }
     },
   },
   plugins: [],

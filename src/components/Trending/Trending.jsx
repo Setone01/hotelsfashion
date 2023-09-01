@@ -1,20 +1,20 @@
 import React from "react";
 import RoomCard from "../RoomCard/RoomCard";
 import { trending } from "../Assets/dummyDB";
-import SecctionHeader from "../SectionHeader";
+import SectionHeader from "../SectionHeader";
 
 const Trending = () => {
   return (
-    <div className="w-screen max-h-max py-8">
+    <div className="w-screen max-h-max py-10">
       <div className="w-[90%] mx-auto">
         <div className="flex justify-start flex-col">
-          <SecctionHeader
+          <SectionHeader
             title={"Trending Hotels"}
-            desc={
+            para={
               "Experience luxury beyond your expectations in the lap of nature."
             }
           />
-          <div className="grid grid-cols-4 gap-6 mb-5">
+          <div className="grid w-full gap-6 pb-7 [@media(min-width:350px)]:grid-cols-[repeat(auto-fill,_minmax(200px,_1fr))] [@media(min-width:768px)]:grid-cols-[repeat(auto-fill,_minmax(280px,_1fr))]">
             {trending &&
               trending.map((data) => (
                 <RoomCard
