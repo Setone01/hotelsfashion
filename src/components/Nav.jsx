@@ -47,7 +47,7 @@ const Nav = () => {
       <div
         className={
           isOpen
-            ? "block md:hidden absolute w-screen h-[50dvh] top-20 [&>li>Link:transition-all] [&>li>Link:ease-in-out] [&>li>Link:delay-500] bg-[#d8d8d6]"
+            ? "block md:hidden absolute w-screen h-[40dvh] top-20 [&>li>Link:transition-all] [&>li>Link:ease-in-out] [&>li>Link:delay-500] bg-[#d8d8d6]"
             : "absolute -left-[100%]"
         }
       >
@@ -110,7 +110,7 @@ const Nav = () => {
         </ul>
         <div className=" flex items-center gap-3 ml-8">
           <img className="w-7 h-7 rounded-full cursor-pointer object-cover" src={britain} alt="" />
-          <p onClick={removeNav} className=" text-base font-light">English</p>
+          <p onClick={removeNav} className=" text-base font-light uppercase">English</p>
         </div>
       </div>
     </div>
