@@ -15,7 +15,7 @@ const Nav = () => {
   };
 
   const removeNav = () => {
-    // setIsOpen(false);
+    setIsOpen(false);
   };
 
   return (
@@ -47,49 +47,70 @@ const Nav = () => {
       <div
         className={
           isOpen
-            ? "block md:hidden absolute w-screen h-[100dvh] top-20 [&>li>Link:transition-all] [&>li>Link:ease-in-out] [&>li>Link:delay-500] bg-[#d8d8d6]"
+            ? "block md:hidden absolute w-screen h-[40dvh] top-20 [&>li>Link:transition-all] [&>li>Link:ease-in-out] [&>li>Link:delay-500] bg-[#d8d8d6]"
             : "absolute -left-[100%]"
         }
       >
-        <ul className=" flex justify-center items-start flex-col mt-6 mx-7 transition-all ease-out delay-500 ">
-          <li className="w-full flex justify-start items-center pl-2 py-2 border-b border-gray-400 hover:pl-3 hover:bg-slate-400/20">
+        <ul className=" flex justify-center items-start flex-col mt-6 mb-5 mx-7 transition-all ease-out delay-500 ">
+          <li className="w-full flex justify-start items-center pl-2 py-2 border-b border-gray-400 hover:pl-4 hover:bg-slate-400/20">
             <Link
               onClick={removeNav}
-              className=" text-sm font-medium capitalize "
+              className=" text-sm font-semibold uppercase "
               href=""
             >
               Hotel
             </Link>
           </li>
-          <li className="w-full flex justify-start items-center pl-2 py-2 border-b border-gray-400 hover:pl-3 hover:bg-slate-400/20">
-            <Link onClick={removeNav} className=" capitalize" href="">
+          <li className="w-full flex justify-start items-center pl-2 py-2 border-b border-gray-400 hover:pl-4 hover:bg-slate-400/20">
+            <Link
+              onClick={removeNav}
+              className=" text-sm font-semibold uppercase"
+              href=""
+            >
               Brand
             </Link>
           </li>
-          <li className="w-full flex justify-start items-center pl-2 py-2 border-b border-gray-400 hover:pl-3 hover:bg-slate-400/20">
-            <Link onClick={removeNav} className=" capitalize" href="">
+          <li className="w-full flex justify-start items-center pl-2 py-2 border-b border-gray-400 hover:pl-4 hover:bg-slate-400/20">
+            <Link
+              onClick={removeNav}
+              className=" text-sm font-semibold uppercase"
+              href=""
+            >
               About us
             </Link>
           </li>
-          <li className="w-full flex justify-start items-center pl-2 py-2 border-b border-gray-400 hover:pl-3 hover:bg-slate-400/20">
-            <Link onClick={removeNav} className="capitalize" href="">
+          <li className="w-full flex justify-start items-center pl-2 py-2 border-b border-gray-400 hover:pl-4 hover:bg-slate-400/20">
+            <Link
+              onClick={removeNav}
+              className="text-sm font-semibold uppercase"
+              href=""
+            >
               How it Works
             </Link>
           </li>
-          <li className="w-full flex justify-start items-center pl-2 py-2 border-b border-gray-400 hover:pl-3 hover:bg-slate-400/20 outline-none">
-            <Link onClick={removeNav} className=" capitalize" href="">
+          <li className="w-full flex justify-start items-center pl-2 py-2 border-b border-gray-400 hover:pl-4 hover:bg-slate-400/20 outline-none">
+            <Link
+              onClick={removeNav}
+              className=" text-sm font-semibold uppercase"
+              href=""
+            >
               Pricing
             </Link>
           </li>
-          <li className="w-full flex justify-start items-center pl-2 py-2 border-b border-gray-400 hover:pl-3 hover:bg-slate-400/20">
-            <Link onClick={removeNav} className=" capitalize" href="">
+          <li className="w-full flex justify-start items-center pl-2 py-2 border-b border-gray-400 hover:pl-4 hover:bg-slate-400/20">
+            <Link
+              onClick={removeNav}
+              className=" text-sm font-semibold uppercase"
+              href=""
+            >
               Contact
             </Link>
           </li>
           <hr />
         </ul>
-        <div className=" ml-6 rounded-full cursor-pointer mb-auto">
-          <img className="w-7 object-cover" src={britain} alt="" />
+        <div className=" flex items-center gap-3 ml-8">
+          <img className="w-7 h-7 rounded-full cursor-pointer object-cover" src={britain} alt="" />
+          <p onClick={removeNav} className=" text-base font-light">English</p>
         </div>
       </div>
     </div>
