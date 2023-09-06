@@ -47,11 +47,11 @@ const Nav = () => {
       <div
         className={
           isOpen
-            ? "block md:hidden absolute w-screen h-[40dvh] top-20 [&>li>Link:transition-all] [&>li>Link:ease-in-out] [&>li>Link:delay-500] bg-[#d8d8d6]"
+            ? "block md:hidden absolute w-screen h-[50dvh] top-20 [&>li>Link:transition-all] [&>li>Link:ease-in-out] [&>li>Link:delay-500] bg-[#d8d8d6]"
             : "absolute -left-[100%]"
         }
       >
-        <ul className=" flex justify-center items-start flex-col mt-6 mb-5 mx-7 transition-all ease-out delay-500 ">
+        <ul className=" flex justify-center items-start flex-col mt-4 mb-5 mx-7 transition-all ease-out delay-500 ">
           <li className="w-full flex justify-start items-center pl-2 py-2 border-b border-gray-400 hover:pl-4 hover:bg-slate-400/20">
             <Link
               onClick={removeNav}
