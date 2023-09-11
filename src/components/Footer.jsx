@@ -41,7 +41,7 @@ const Footer = () => {
         </div>
 
         <div className="w-full flex justify-start flex-col group">
-          <p className="text-base text-textBlack mb-3">
+          <p className="text-sm text-textBlack mb-3">
             Get updates about available spaces, weekly digest of our most
             important activities and more in your email.
           </p>
@@ -136,7 +136,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="w-full h-12 bg-black text-white flex items-center">
-        <p className="w-[90%] mx-auto text-base font-light">
+        <p className="w-[90%] mx-auto text-sm font-light">
           {" "}
           Hotel Fashion &copy; {new Date().getFullYear()} All Rights Reserved.
         </p>
@@ -152,7 +152,7 @@ const LinkGroup = ({ children, header }) => {
     <>
       <div className="w-full">
         <div className=" mb-10">
-          <h4 className=" text-lg text-deepWine font-semibold mb-2 text-dark">
+          <h4 className=" text-lg text-deepWine font-bold mb-2 text-dark">
             {" "}
             {header}{" "}
           </h4>
@@ -169,7 +169,7 @@ const NavLink = ({ link, label }) => {
       <li>
         <a
           href={link}
-          className={`inline-block text-base text-textBlack leading-loose  hover:text-textGrey`}
+          className={`inline-block text-sm text-textBlack leading-loose  hover:text-textGrey`}
         >
           {label}
         </a>

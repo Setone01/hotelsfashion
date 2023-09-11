@@ -1,32 +1,32 @@
 // Trending json image
-import Vineyard from "../Assets/images/vineyard.svg";
-import Grand from "../Assets/images/grand.svg";
-import Hambleton from "../Assets/images/hambleton.svg";
-import Lowry from "../Assets/images/lowry.svg";
-import Tenhill from "../Assets/images/tenhill.svg";
-import Blythswood from "../Assets/images/blythswood.svg";
-import Felix from "../Assets/images/felix.svg";
-import Stjames from "../Assets/images/stjames.svg";
+import Vineyard from "../Assets/images/vineyard.png";
+import Grand from "../Assets/images/grandhotel.png";
+import Hambleton from "../Assets/images/hambleton.png";
+import Lowry from "../Assets/images/lowry.png";
+import Tenhill from "../Assets/images/tenhill.png";
+import Blythswood from "../Assets/images/blythswood.png";
+import Felix from "../Assets/images/hotelfelix.png";
+import Stjames from "../Assets/images/stjames.png";
 
 // hotel json images
-import Star from "../Assets/images/hotelstar.svg";
-import Grandhotel from "../Assets/images/grandHotel.svg";
-import Mandarin from "../Assets/images/mandarin.svg";
-import Bollathie from "../Assets/images/ballathie.svg";
-import Westine from "../Assets/images/weston.svg";
-import Fourseasons from "../Assets/images/fourseasons.svg";
-import Hotelfelix from "../Assets/images/hotelfelix.svg";
-import Reina from "../Assets/images/reina.svg";
+import Star from "../Assets/images/hotelstart.png";
+import Grandhotel from "../Assets/images/grandhotel2.png";
+import Mandarin from "../Assets/images/mandarinoriental.png";
+import Bollathie from "../Assets/images/ballathine.png";
+import Westine from "../Assets/images/thewest.png";
+import Fourseasons from "../Assets/images/fourseasons.png";
+import Hotelfelix from "../Assets/images/hotelfelix2.png";
+import Reina from "../Assets/images/reina.png";
 
 //trending brands image
-import Tobams from "../Assets/images/Tobams.svg";
-import Collxx from "../Assets/images/collxx.svg";
-import Royalseams from "../Assets/images/theseams.svg";
-import Imaginary from "../Assets/images/imaginary.svg";
-import Finesilk from "../Assets/images/finesilk.svg";
-import Mirage from "../Assets/images/miragewers.svg";
-import Exclusive from "../Assets/images/exclusive.svg";
-import Aperture from "../Assets/images/aperture.svg";
+import Tobams from "../Assets/images/tobams.png";
+import Collxx from "../Assets/images/collxx.png";
+import Royalseams from "../Assets/images/theroyals.png";
+import Imaginary from "../Assets/images/imaginary.png";
+import Finesilk from "../Assets/images/finesilk.png";
+import Mirage from "../Assets/images/miragewears.png";
+import Exclusive from "../Assets/images/exclusive.png";
+import Aperture from "../Assets/images/aperture.png";
 
 // Navlinks
 export const navLink = [

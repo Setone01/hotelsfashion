@@ -23,7 +23,7 @@ module.exports = {
       },
 
       backgroundImage: {
-        heroBg: "url('./components/Assets/images/bgImage.svg')"
+        heroBg: "url('./components/Assets/images/bgImage.png')"
       }
     },
   },

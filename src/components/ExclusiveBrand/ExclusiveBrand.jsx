@@ -1,5 +1,5 @@
 import React from "react";
-import exclusive from "../Assets/images/exclusivebrand.svg";
+import exclusive from "../Assets/images/exclusivebrands.png";
 import SectionHeader from "../SectionHeader";
 
 const ExclusiveBrand = () => {
