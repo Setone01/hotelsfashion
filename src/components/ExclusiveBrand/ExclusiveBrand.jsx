@@ -18,7 +18,7 @@ const ExclusiveBrand = () => {
               <h4>Verified for Quality Services</h4>
             </div>
             <div className="">
-              <button className="bg-white text-base text-deepWine font-light rounded-md flex justify-center items-center py-3 px-4 shadow-md">
+              <button className="bg-white text-sm text-deepWine font-light rounded-md flex justify-center items-center py-3 px-4 shadow-md">
                 learn more{" "}
                 <span className="ml-3">
                   <svg
